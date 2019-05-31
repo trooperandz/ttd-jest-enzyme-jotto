@@ -15,7 +15,7 @@ const setup = (props = {}, state) => {
 
 describe('<Congrats />', () => {
   it('does not throw any warning with expected props', () => {
-    const expectedProps = { success: false };
+    const expectedProps = { success: true };
     checkProps(Congrats, expectedProps);
   });
 
